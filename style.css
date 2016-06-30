@@ -1,11 +1,98 @@
+body{
+	width: 100%;
+}
+
+/*Barre de navigation*/
+.navbar-inverse{
+	background-color:#F10A61 !important;
+	border-color: #E0D5FF !important;
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 5px;
+  border-top: none !important;
+  border-left: none !important;
+  margin-bottom: 0;
+}
+
+.navbar-inverse .navbar-brand{
+	color:#F10A61 !important;
+}
+.container-fluid > .navbar-header{
+	width: 140px;
+}
+.navbar-right{
+	color:#F10A61 !important;
+}
+.navbar-nav > li{
+	width: 140px;
+	text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-color: #F10A61;
+}
+.dropdown-menu{
+	background-color:#E0D5FF !important;
+	min-width: 140px !important;
+}
+
+.dropdown-menu > li > a{
+	color:#F10A61 !important; 
+  font-family: 'Indie Flower', cursive;
+}
+
+.dropdown-toggle{
+padding-top: 20px !important;
+color: white !important;
+}
+
+.ep{
+padding-top: 20px !important;
+color: white !important;
+}
+
+li{
+color: white !important;
+}
+
+/*Carousel*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+/*.carousel{
+width:100%;
+margin: auto;
+margin-top: 50px;
+margin-bottom: 50px;
+}*/
+
+.img {
+	max-height: 299px;
+}
+
+
+.home{
+width:20px;
+height: 25px;
+}
+/*Nouveautés*/
 /*.nouveautes{
 width: 100%;
 height:50%;
 }*/
 
+.titrenouv{
+font-family: 'Indie Flower', cursive;
+color:#F10A61 ;
+padding-left: 20px;
+}
+
+
 .section1{
 width: 30%;
 height: 100%;
+float: left;
+padding: 0!important;
 }
 
 .section2{
@@ -17,68 +104,82 @@ float:right;
 .img1{
 width: 100%;
 height: 100%;
+padding: 0!important;
 }
 
 .img2{
 width: 100%;
 height: 30%;
+padding: 0!important;
 }
 
 .img3{
 width:50%;
 height: 70%;
 float: left;
+padding: 0!important;
 }
 
 .img4{
 width: 50%;
 height: 70%;
 float:right;
+padding: 0!important;
 }
 
 .photo1{
-width: 960px;
+width: 950px;
 height: 640px;
+float: left;
 }
 
 .photo2{
 width:100%;
 height: 320px;
+float: right;
+margin-top: 
 }
 
 .photo3{
 width: 50%;
 height:320px;
+float: left;
 }
 
 .photo4{
 width: 50%;
 height:320px;
+float: right;
 }
 
 .pret{
 font-size: 30px;
 text-align: center;
 padding-top: 350px;
-padding-right: 50px;
+padding-right: 0!important;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
 }
 
 .bij{
 font-size: 30px;
 padding-top: 100px;
-padding-right: 70px;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
 }
 
 .marq{
 font-size: 30px;
 padding-top: 100px;
-padding-right: 70px;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
 }
 
 .dec{
 font-size: 30px;
 padding-top: 100px;
-padding-right: 70px;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
 }
 
 .p1{
@@ -165,3 +266,60 @@ padding-right: 60px;
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+.logo{
+  background-image: url(images/fondlog.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.footer{
+/*background-image: url("images/plan4.jpg");
+ background-repeat: no-repeat;
+ background-size: 100%;*/
+ background-color: #F10A61;
+ height: 280px;
+ color:white;
+ font-size: 18px;
+ margin-top: 30px;
+ font-family: 'Indie Flower', cursive;
+}
+.logo2 img{
+
+ width: 200px;
+ height: 150px;
+
+ margin-left: 90px;
+margin-top:20px;
+ 
+}
+.col-md-4{
+ text-align: center;
+ padding: 20px;
+}
+
+.PlanSite a{
+text-decoration: none !important;
+color: white;
+
+}
+
+.cont, .inf{
+padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
